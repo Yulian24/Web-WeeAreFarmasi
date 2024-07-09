@@ -1,0 +1,317 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+}
+
+header {
+    background-color: #1b55a1;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 55px; /* Atur tinggi logo sesuai kebutuhan Anda */
+    margin-left: 10px; /* Memberi jarak antara dua logo */
+}
+
+.logo1 {
+    align-items: center;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+    cursor: pointer;
+}
+
+.nav-toggle-label span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: white;
+    margin: 5px 0;
+    transition: all 0.15s;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    background: linear-gradient(to bottom right, #1a73e8, #b0c4de);
+    color: black;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero-text button {
+    padding: 0.8rem 2.5rem;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    margin-block-start: 1rem;
+  
+    background-color: #46709c;
+  
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+.hero-text button:hover {
+    background-color: #70c1f4;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2871d7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #1a73e8, #b0c4de);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-us {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 48%;
+    border-radius: 5px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    border: 1px solid #f7f2f2; 
+    padding: 16px; 
+    margin: 16px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    background-color: hsl(206, 48%, 49%); 
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.text {
+    padding: 10px;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #1a73e8, #b0c4de);
+    color: #FFFFFF;
+}
+
+.contact-info {
+    font-size: 1em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #355fc2;
+    color: rgb(15, 15, 15);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info p,
+.footer-nav p {
+    margin: 0.5em 0;
+}
+
+.footer-nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Media Query untuk Responsivitas */
+@media (max-width: 768px) {
+    .nav-toggle-label {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #9eb7b3;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-toggle:checked + .nav-toggle-label + nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image {
+        margin-top: 2em;
+    }
+}
+
+  .hospital1 img {
+    align-self: center;
+  }
